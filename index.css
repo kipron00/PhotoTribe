@@ -614,6 +614,16 @@ hr{
 	margin: 20px;
 }
 
+.card-content a{
+	animation: blinker 1s step-start infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
 .card-content h3,
 .card-content span{
     position: absolute;
