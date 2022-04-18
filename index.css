@@ -538,6 +538,11 @@ html{
 	margin-top: 150px;
 }
 
+.container{
+    	padding: 10px;
+	width: 600px !important;
+}
+
 @media only screen and (max-width: 768px) {
     #Contact{
             align-content: center;
@@ -545,11 +550,11 @@ html{
             width: 300px;
 	    margin-top: 0;
     }
+    .container{
+	width: 100%;
+    }
 }
-.container{;
-    	padding: 10px;
-	width: 600px !important;
-}
+
 .container h1{
   padding-top: 0;
   padding-bottom: 40px;
