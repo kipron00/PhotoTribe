@@ -417,8 +417,8 @@ html{
 	text-align: center;
 	width: 300px;
 	float: left;
-	-webkit-box-shadow: 0 0 15px rgba(0,0,0,0.4);
-	box-shadow: 0 0 15px rgba(0,0,0,0.4);
+	-webkit-box-shadow: 0 0 15px /*rgba(0,0,0,0.4)*/ #6e6e6e;
+	box-shadow: 0 0 15px /*rgba(0,0,0,0.4)*/ #6e6e6e;
 	-webkit-transition: all 0.25s ease;
 	-o-transition: all 0.25s ease;
 	transition: all 0.25s ease;
