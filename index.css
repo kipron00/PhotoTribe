@@ -313,15 +313,15 @@ html{
 .row{
   margin-top: 0 !important;
 }
-.container {
+.aboutfounder {
   padding: 0 16px;
   margin-top: 0 !important;
 }
-.container p{
+.aboutfounder p{
   text-align: center;
   font-family: cursive;
 }
-.container::after, .row::after {
+.aboutfounder::after, .row::after {
   content: "";
   clear: both;
   display: table;
