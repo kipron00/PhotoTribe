@@ -585,7 +585,7 @@ hr{
     max-width: 300px;
     height: 140px;
     background-color: #444;
-    margin: 20px;
+    margin: 40px;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -605,8 +605,9 @@ hr{
     opacity: 0;
 }
 .card-content{
-  width: 100% !important;
-  height: auto;
+  	width: 100% !important;
+  	height: auto;
+	margin: 20px;
 }
 
 .card-content h3,
