@@ -597,11 +597,17 @@ hr{
 }
 
 .icon{
-    font-size: 32px;
-    color: #e95846;
-    transition: .3s linear;
-    padding: 25px;
-    text-align: center;	
+    	font-size: 32px;
+    	color: #e95846;
+    	transition: .3s linear;
+    	padding: 25px;
+    	text-align: center;	
+	animation: blinker 2s ease infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: .4;
+  }
 }
 
 .card:hover .icon{
@@ -612,16 +618,6 @@ hr{
   	width: 100% !important;
   	height: auto;
 	margin: 20px;
-}
-
-.card-content a{
-	animation: blinker 2s ease infinite;
-}
-
-@keyframes blinker {
-  50% {
-    opacity: .4;
-  }
 }
 
 .card-content h3,
