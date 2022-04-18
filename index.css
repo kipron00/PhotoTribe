@@ -611,7 +611,8 @@ hr{
 }
 
 .card-content h3,
-.card-content span{
+.card-content span,
+.card-content h5{
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -619,7 +620,7 @@ hr{
     opacity: 0;
 }
 
-.card-content h3{
+.card-content h3, .card-content h5{
     top: 20px;
     text-transform: uppercase;
     color: #ea8685;
