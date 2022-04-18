@@ -366,7 +366,7 @@ html{
 }
 @media screen and (max-width: 768px){
   #Product{
-    width: 400px;
+    width: 300px;
     padding: 0;
   }
 }
