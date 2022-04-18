@@ -392,7 +392,8 @@ html{
     padding: 0;
   }
  .pricing-table-title {
-	font-weight: 300;
+	 width: 250px;
+	 font-size: 1.5em;
   }
 }
 
