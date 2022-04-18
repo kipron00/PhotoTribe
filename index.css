@@ -615,12 +615,12 @@ hr{
 }
 
 .card-content a{
-	animation: blinker 1s step-start infinite;
+	animation: blinker 2s ease infinite;
 }
 
 @keyframes blinker {
   50% {
-    opacity: 0;
+    opacity: .4;
   }
 }
 
