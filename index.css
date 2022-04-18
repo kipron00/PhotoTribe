@@ -203,7 +203,7 @@ html{
   /*background-image: linear-gradient(to bottom, #000, #4a432d, #000);*/
   width: 100vw;
   height: 100vh;
-  /*margin-bottom: 60px;*/
+  margin-bottom: 60px;
 }
 #Home div{
   margin: 0 auto; !important;
@@ -232,7 +232,7 @@ html{
   }
   #description{
     position: relative;
-    top: 200px;
+    top: 150px;
     margin: 0 auto;
   }
 }
