@@ -204,9 +204,11 @@ html{
   /*background-image: linear-gradient(to bottom, #000, #4a432d, #000);*/
   width: 100vw;
   height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 #Home div{
-  margin: 0 auto 50px auto; !important;
+  margin: 0 auto; !important;
 }
 #helloimg{
   position: relative;
