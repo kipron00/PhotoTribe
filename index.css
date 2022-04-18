@@ -296,9 +296,9 @@ html{
 .about-section h1{
   	color: #e95846;
   	text-decoration: none;
-    font-family: 'Dancing Script', cursive;
-    letter-spacing: 5px;
-    font-size: 4em;
+    	font-family: 'Dancing Script', cursive;
+    	letter-spacing: 5px;
+    	font-size: 4em;
 }
 .about-section p{
     font-size: 200%;
@@ -390,7 +390,7 @@ html{
 
 @media screen and (max-width: 768px){
   #Product{
-    width: 300px;
+    width: 400px;
     padding: 0;
   }
  .pricing-table-title {
@@ -508,11 +508,6 @@ html{
  	.pricing-wrapper {
  		width: 768px;
  	}
-
- 	.pricing-table {
- 		width: 236px;
- 	}
-
  }
 
  @media only screen and (max-width: 767px) {
