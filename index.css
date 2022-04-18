@@ -206,7 +206,7 @@ html{
   height: 100vh;
 }
 #Home div{
-  margin: 0 auto !important;
+  margin: 0 auto 50px auto; !important;
 }
 #helloimg{
   position: relative;
