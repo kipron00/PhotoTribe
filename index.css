@@ -534,16 +534,18 @@ html{
 
 /*contact*/
 #Contact{
-    height: auto;
-    display: flex;
-    align-items: center;
+    	height: auto;
+    	display: flex;
+    	align-items: center;
+	margin-top: 50px;
 }
 
 @media only screen and (max-width: 768px) {
     #Contact{
-        align-content: center;
-        flex-direction: column !important;
-        width: 300px;
+            align-content: center;
+            flex-direction: column !important;
+            width: 300px;
+	    margin-top: 0;
     }
 }
 .container{
