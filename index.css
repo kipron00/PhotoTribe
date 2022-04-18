@@ -355,6 +355,7 @@ html{
 /*about*/
 
 /*Product*/
+
 #Product{
   width: 800px;
   padding-left: 100px;
@@ -374,13 +375,13 @@ html{
 .pricing-table-title a {
 	color: #e95846;
 	text-decoration: none;
-  font-family: 'Dancing Script', cursive;
-  letter-spacing: 5px;
-  font-size: 1.5em;
+  	font-family: 'Dancing Script', cursive;
+  	letter-spacing: 5px;
+  	font-size: 1.5em;
 }
 
 .pricing-table-title {
-  font-family: 'Square Peg', cursive;
+  	font-family: 'Square Peg', cursive;
 	font-weight: 700;
 	font-size: 2.6em;
 	color: #FFF;
@@ -413,7 +414,7 @@ html{
 	-webkit-transition: all 0.25s ease;
 	-o-transition: all 0.25s ease;
 	transition: all 0.25s ease;
-  border-radius: 5px;
+  	border-radius: 5px;
 }
 
 .pricing-table:hover {
@@ -437,9 +438,15 @@ html{
 }
 
 .price img {
-  width: 400px;
-  height: inherit;
+  	width: 400px;
+  	height: inherit;
 	padding: 0;
+}
+
+@media screen and (max-width: 768px){
+.price img {
+  	width: 250px;
+   }
 }
 
 .table-buy {
