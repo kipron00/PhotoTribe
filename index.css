@@ -203,9 +203,8 @@ html{
 #Home{
   /*background-image: linear-gradient(to bottom, #000, #4a432d, #000);*/
   width: 100vw;
-  height: 100vh;
-  display: flex;
-  align-content: flex-start;
+  height: auto;
+  margin-bottom: 60px;
 }
 #Home div{
   margin: 0 auto; !important;
