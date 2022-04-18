@@ -598,6 +598,8 @@ hr{
     transition: .3s linear;
     padding: 25px;
     text-align: center;
+    width: 20px;
+    height: 20px;	
 }
 
 .card:hover .icon{
