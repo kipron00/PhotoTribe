@@ -317,6 +317,12 @@ html{
   padding: 0 16px;
   margin-top: 0 !important;
 }
+.aboutfounder h2{
+    text-align:center;
+    color: #e95846;
+    font-family:'Shadows Into Light', roboto;
+}
+
 .aboutfounder p{
   text-align: center;
   font-family: cursive;
